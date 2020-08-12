@@ -1,0 +1,5 @@
+./elasticsearch/buildSrc/src/main/java/org/elasticsearch/gradle/precommit/DependencyLicensesPrecommitPlugin.java
+./elasticsearch/x-pack/plugin/core/src/main/java/org/elasticsearch/xpack/core/ml/dataframe/analyses/RequiredField.java
+./elasticsearch/server/src/main/java/org/elasticsearch/action/admin/indices/forcemerge/ForceMergeRequest.java
+./guava/guava-testlib/src/com/google/common/collect/testing/OneSizeGenerator.java
+./elasticsearch/x-pack/plugin/ml/src/main/java/org/elasticsearch/xpack/ml/job/retention/ExpiredModelSnapshotsRemover.java
