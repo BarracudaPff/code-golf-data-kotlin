@@ -1,5 +1,12 @@
-./elasticsearch/buildSrc/src/main/java/org/elasticsearch/gradle/precommit/DependencyLicensesPrecommitPlugin.java
-./elasticsearch/x-pack/plugin/core/src/main/java/org/elasticsearch/xpack/core/ml/dataframe/analyses/RequiredField.java
-./elasticsearch/server/src/main/java/org/elasticsearch/action/admin/indices/forcemerge/ForceMergeRequest.java
-./guava/guava-testlib/src/com/google/common/collect/testing/OneSizeGenerator.java
-./elasticsearch/x-pack/plugin/ml/src/main/java/org/elasticsearch/xpack/ml/job/retention/ExpiredModelSnapshotsRemover.java
+{
+    "evaluationRoots": [
+        "./java-design-patterns/circuit-breaker/src/main/java/com/iluwatar/circuitbreaker/CircuitBreaker.java",
+        "./zxing/core/src/main/java/com/google/zxing/RGBLuminanceSource.java",
+        "./spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/orm/jpa/hibernate/SpringImplicitNamingStrategy.java",
+        "./elasticsearch/client/rest-high-level/src/test/java/org/elasticsearch/client/EnrichRequestConvertersTests.java",
+        "./guava/guava/src/com/google/common/eventbus/Subscriber.java",
+        "./spring-boot/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.java",
+        "./elasticsearch/x-pack/plugin/ccr/src/main/java/org/elasticsearch/xpack/ccr/action/TransportCcrStatsAction.java",
+        "./elasticsearch/server/src/main/java/org/elasticsearch/action/support/nodes/NodesOperationRequestBuilder.java"
+    ]
+}
