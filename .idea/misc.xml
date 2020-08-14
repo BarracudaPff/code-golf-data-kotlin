@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/guava/pom.xml" />
         <option value="$PROJECT_DIR$/zxing/pom.xml" />
+        <option value="$PROJECT_DIR$/java-design-patterns/ambassador/pom.xml" />
+        <option value="$PROJECT_DIR$/java-design-patterns/pom.xml" />
       </list>
     </option>
   </component>
