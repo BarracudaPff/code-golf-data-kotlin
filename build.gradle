@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+
+    implementation files("guava/target/classes") {
+        builtBy "compileGuava"
+    }
+
+    implementation files("zxing/target/classes") {
+        builtBy "compileZxing"
+    }
+
+    implementation files("java-design-patterns/target/classes") {
+        builtBy "compilePatterns"
+    }
+}
+
+task compileGuava(type: Exec) {
+    workingDir "guava"
+    commandLine "mvn", "-DskipTests", "clean", "install"
+}
+
+
+task compilePatterns(type: Exec) {
+    workingDir "java-design-patterns"
+    commandLine "mvn", "-DskipTests", "clean", "install"
+}
+
+
+task compileZxing(type: Exec) {
+    workingDir "zxing"
+    commandLine "mvn", "-DskipTests", "clean", "install"
+}
