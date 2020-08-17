@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="4096" />
     <addNotNullAssertions enabled="false" />
     <annotationProcessing>
       <profile name="Gradle Imported" enabled="true">
@@ -14,156 +14,60 @@
         </processorPath>
         <module name="elasticsearch.benchmarks.main" />
       </profile>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
-        <module name="event-aggregator" />
-        <module name="cqrs" />
-        <module name="value-object" />
-        <module name="facade" />
-        <module name="reader-writer-lock" />
-        <module name="repository" />
-        <module name="observer" />
-        <module name="master-worker-pattern" />
-        <module name="iterator" />
-        <module name="composite" />
-        <module name="property" />
-        <module name="resource-acquisition-is-initialization" />
-        <module name="state" />
-        <module name="monad" />
-        <module name="factory-kit" />
-        <module name="eip-splitter" />
-        <module name="guava-testlib" />
-        <module name="android-core" />
-        <module name="guava-gwt" />
-        <module name="adapter" />
-        <module name="zxingorg" />
-        <module name="module" />
-        <module name="monostate" />
-        <module name="interpreter" />
-        <module name="step-builder" />
-        <module name="proxy" />
-        <module name="eip-aggregator" />
-        <module name="semaphore" />
-        <module name="intercepting-filter" />
-        <module name="bridge" />
-        <module name="front-controller" />
-        <module name="service-locator" />
-        <module name="bytecode" />
-        <module name="template-method" />
-        <module name="unit-of-work" />
-        <module name="decorator" />
-        <module name="combinator" />
-        <module name="event-driven-architecture" />
-        <module name="data-mapper" />
-        <module name="async-method-invocation" />
-        <module name="subclass-sandbox" />
-        <module name="mutex" />
-        <module name="typeobjectpattern" />
-        <module name="naked-objects-dom" />
-        <module name="eip-publish-subscribe" />
-        <module name="event-sourcing" />
-        <module name="flyweight" />
-        <module name="data-bus" />
-        <module name="event-asynchronous" />
-        <module name="leader-election" />
-        <module name="factory-method" />
-        <module name="servant" />
-        <module name="guava-tests" />
-        <module name="inventory-microservice" />
-        <module name="partial-response" />
-        <module name="builder" />
-        <module name="double-buffer" />
-        <module name="data-locality" />
-        <module name="strangler" />
-        <module name="private-class-data" />
-        <module name="chain" />
-        <module name="model-view-controller" />
-        <module name="serverless" />
-        <module name="null-object" />
-        <module name="naked-objects-webapp" />
-        <module name="tolerant-reader" />
-        <module name="prototype" />
-        <module name="producer-consumer" />
-        <module name="abstract-document" />
-        <module name="execute-around" />
-        <module name="pipeline" />
-        <module name="mute-idiom" />
-        <module name="lazy-loading" />
-        <module name="game-loop" />
-        <module name="event-queue" />
-        <module name="leader-followers" />
-        <module name="multiton" />
-        <module name="dependency-injection" />
-        <module name="converter" />
-        <module name="poison-pill" />
-        <module name="promise" />
-        <module name="circuit-breaker" />
-        <module name="android-integration" />
-        <module name="spatial-partition" />
-        <module name="collection-pipeline" />
-        <module name="sample-application" />
-        <module name="caching" />
-        <module name="arrange-act-assert" />
-        <module name="price-microservice" />
-        <module name="commander" />
-        <module name="model-view-presenter" />
-        <module name="feature-toggle" />
-        <module name="dao" />
-        <module name="queue-load-leveling" />
-        <module name="layers" />
-        <module name="trampoline" />
-        <module name="saga" />
-        <module name="information-microservice" />
-        <module name="half-sync-half-async" />
-        <module name="extension-objects" />
-        <module name="role-object" />
-        <module name="thread-pool" />
-        <module name="memento" />
-        <module name="abstract-factory" />
-        <module name="service-layer" />
-        <module name="core" />
-        <module name="api-gateway-service" />
-        <module name="marker" />
-        <module name="guarded-suspension" />
-        <module name="mediator" />
-        <module name="visitor" />
-        <module name="hexagonal" />
-        <module name="update-method" />
-        <module name="business-delegate" />
-        <module name="reactor" />
-        <module name="test-automation" />
-        <module name="naked-objects-fixture" />
-        <module name="double-dispatch" />
-        <module name="eip-message-channel" />
-        <module name="throttling" />
-        <module name="object-mother" />
-        <module name="image-microservice" />
-        <module name="flux" />
-        <module name="twin" />
-        <module name="retry" />
-        <module name="singleton" />
-        <module name="naked-objects-integtests" />
-        <module name="aggregator-service" />
-        <module name="eip-wire-tap" />
-        <module name="priority-queue" />
-        <module name="double-checked-locking" />
-        <module name="balking" />
-        <module name="specification" />
-        <module name="fluentinterface" />
-        <module name="command" />
-        <module name="sharding" />
-        <module name="data-transfer-object" />
-        <module name="object-pool" />
-        <module name="ambassador" />
-        <module name="dirty-flag" />
-        <module name="acyclic-visitor" />
-        <module name="callback" />
-        <module name="tls" />
-        <module name="guava" />
-        <module name="delegation" />
-        <module name="strategy" />
+        <option name="org.springframework.boot.configurationprocessor.additionalMetadataLocations" value="spring-boot-project/spring-boot/src/main/resources" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.4.0-SNAPSHOT.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.13.3/4e857439fc4fe974d212adaaaa3b118b8b50e3ec/log4j-core-2.13.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/ec1508160b93d274b1add34419b897bae84c6ca9/log4j-api-2.13.3.jar" />
+        </processorPath>
+        <module name="spring-boot-build.spring-boot-project.spring-boot.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="org.springframework.boot.configurationprocessor.additionalMetadataLocations" value="spring-boot-project/spring-boot-actuator/src/main/resources" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.4.0-SNAPSHOT.jar" />
+        </processorPath>
+        <module name="spring-boot-build.spring-boot-project.spring-boot-actuator.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="org.springframework.boot.configurationprocessor.additionalMetadataLocations" value="spring-boot-project/spring-boot-actuator-autoconfigure/src/main/resources" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.4.0-SNAPSHOT.jar" />
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-autoconfigure-processor/build/libs/spring-boot-autoconfigure-processor-2.4.0-SNAPSHOT.jar" />
+        </processorPath>
+        <module name="spring-boot-build.spring-boot-project.spring-boot-actuator-autoconfigure.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="org.springframework.boot.configurationprocessor.additionalMetadataLocations" value="spring-boot-project/spring-boot-autoconfigure/src/main/resources" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.4.0-SNAPSHOT.jar" />
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-autoconfigure-processor/build/libs/spring-boot-autoconfigure-processor-2.4.0-SNAPSHOT.jar" />
+        </processorPath>
+        <module name="spring-boot-build.spring-boot-project.spring-boot-autoconfigure.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="org.springframework.boot.configurationprocessor.additionalMetadataLocations" value="spring-boot-project/spring-boot-devtools/src/main/resources" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.4.0-SNAPSHOT.jar" />
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-autoconfigure-processor/build/libs/spring-boot-autoconfigure-processor-2.4.0-SNAPSHOT.jar" />
+        </processorPath>
+        <module name="spring-boot-build.spring-boot-project.spring-boot-devtools.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.4.0-SNAPSHOT.jar" />
+        </processorPath>
+        <module name="spring-boot-build.spring-boot-tests.spring-boot-smoke-tests.spring-boot-smoke-test-actuator-noweb.main" />
+        <module name="spring-boot-build.spring-boot-tests.spring-boot-integration-tests.spring-boot-configuration-processor-tests.main" />
+        <module name="spring-boot-build.spring-boot-tests.spring-boot-smoke-tests.spring-boot-smoke-test-integration.main" />
+        <module name="spring-boot-build.spring-boot-tests.spring-boot-smoke-tests.spring-boot-smoke-test-property-validation.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
