@@ -27,14 +27,14 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="Cloudbees snapshots" />
-      <option name="name" value="Cloudbees snapshots" />
-      <option name="url" value="https://repository-estatio.forge.cloudbees.com/snapshot/" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="maven2" />
       <option name="name" value="maven2" />
       <option name="url" value="https://repo.spring.io/snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Cloudbees snapshots" />
+      <option name="name" value="Cloudbees snapshots" />
+      <option name="url" value="https://repository-estatio.forge.cloudbees.com/snapshot/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="opensaml" />
@@ -55,11 +55,6 @@
       <option name="id" value="MavenRepo" />
       <option name="name" value="MavenRepo" />
       <option name="url" value="https://repo.maven.apache.org/maven2/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="android-studio" />
-      <option name="name" value="android-studio" />
-      <option name="url" value="https://maven.google.com" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="maven" />

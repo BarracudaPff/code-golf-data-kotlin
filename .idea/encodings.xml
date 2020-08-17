@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/guava/guava-gwt/src" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guava/guava-gwt/src-super" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guava/guava-gwt/target/guava-gwt-sources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guava/guava-testlib/src" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guava/guava/src" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-design-patterns/abstract-document/src/main/java" charset="UTF-8" />

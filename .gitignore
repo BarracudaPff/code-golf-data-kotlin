@@ -1,1 +1,8 @@
 /*.txt
+
+### Java ###
+*.class
+
+### Gradle ###
+.gradle
+!gradle-wrapper.jar
