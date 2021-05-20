@@ -1,0 +1,16 @@
+{
+    "evaluationRoots": [
+        "./selected_files/app/src/main/java/com/ssttkkl/fgoplanningtool/data/item/ItemsDao.kt",
+        "./selected_files/processor/src/main/java/com/joom/lightsaber/processor/model/Converter.kt",
+        "./selected_files/src/main/java/src/Functional.kt",
+        "./selected_files/app/src/main/java/com/example/zoan/loan/ui/CreateLoanActivity.kt",
+        "./selected_files/app/src/main/java/id/ilhamsuaib/kotlinmvp/data/repository/ClubRepositoryImpl.kt",
+        "./selected_files/vlfsoft.kannotations/src/main/java/vlfsoft/principles/generic/IdempotencePrinciple.kt",
+        "./selected_files/core/src/main/kotlin/materialui/components/cardcontent/cardContent.kt",
+        "./selected_files/src/main/kotlin/io/gladed/watchable/WatchableList.kt",
+        "./selected_files/core/base/src/main/kotlin/com/ringoid/base/adapter/SimpleListDiffer.kt",
+        "./selected_files/app/src/main/java/net/osmand/osmandapidemo/dialogs/GpxBitmapDialogFragment.kt",
+        "./selected_files/ziti-netty/src/main/kotlin/org/openziti/netty/ZitiChannel.kt",
+        "./selected_files/app/src/main/java/com/zen/alchan/ui/browse/staff/anime/StaffAnimeViewModel.kt"
+    ]
+}
